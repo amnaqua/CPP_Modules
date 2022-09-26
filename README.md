@@ -18,3 +18,6 @@ Inheritance. </br>
 Subtype polymorphism, abstract classes, interfaces. </br>
 
 ## CPP Module 05
+Repetition and Exceptions. </br>
+
+## CPP Module 06
