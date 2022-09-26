@@ -9,3 +9,6 @@ Namespaces, classes, member functions, stdio streams, initialization lists, stat
 Memory allocation, pointers to members, references, switch statement. </br>
 
 ## CPP Module 02
+Ad-hoc polymorphism, operator overloading and Orthodox Canonical class form. </br>
+
+## CPP Module 03
