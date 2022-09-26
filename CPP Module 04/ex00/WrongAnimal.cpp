@@ -1,0 +1,36 @@
+#include "WrongAnimal.hpp"
+
+#include <iostream>
+
+WrongAnimal::WrongAnimal(): type("Animal")
+{
+    std::cout << "WrongAnimal: Default constructor" << std::endl;
+}
+
+WrongAnimal::WrongAnimal(const WrongAnimal& other)
+{
+    *this = other;
+
+    std::cout << "WrongAnimal: Copy constructor" << std::endl;
+}
+
+WrongAnimal& WrongAnimal::operator=(const WrongAnimal& other)
+{
+    this->type = other.type;
+
+    std::cout << "WrongAnimal: Assinment operator" << std::endl;
+
+    return (*this);
+}
+
+WrongAnimal::~WrongAnimal()
+{
+    std::cout << "WrongAnimal: Destructor" << std::endl;
+}
+
+void WrongAnimal::makeSound() const
+{
+    std::cout << "WrongAnimal sound" << std::endl;
+}
+
+const std::string& WrongAnimal::getType() const { return (this->type); }
