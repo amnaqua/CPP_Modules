@@ -21,3 +21,7 @@ Subtype polymorphism, abstract classes, interfaces. </br>
 Repetition and Exceptions. </br>
 
 ## CPP Module 06
+C++ casts. </br>
+
+## CPP Module 07
+C++ templates. </br>
