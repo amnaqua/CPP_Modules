@@ -25,3 +25,6 @@ C++ casts. </br>
 
 ## CPP Module 07
 C++ templates. </br>
+
+## CPP Module 08
+Templated containers, iterators, algorithms. </br>
